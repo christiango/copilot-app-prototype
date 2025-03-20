@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "outDir": "lib",
+      "rootDir": "src",
+      "target": "es2022",
+      "module": "ES2022",
+      "moduleResolution": "Bundler",
+      "jsx": "react",
+      "declaration": true,
+      "declarationMap": true,
+      "strict": true,
+      "sourceMap": true,
+      "strictBindCallApply": false,
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "importHelpers": true
+    },
+    "include": ["src"]
+  }

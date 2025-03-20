@@ -1,0 +1,21 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.trimAutoWhitespace": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "files.trimTrailingWhitespace": true,
+    "json.format.enable": false,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/lib": true
+    },
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/lib": true
+    }
+  }
