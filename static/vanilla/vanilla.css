@@ -1,5 +1,15 @@
+html {
+  --fontFamily: 'Segoe UI', 'Segoe UI Web';
+}
+
+@font-face {
+  font-family: 'Segoe UI Web';
+  src: url('./segoeui-regular.woff2');
+}
+
 body {
   background-color: #fafafa;
+  font-family: var(--fontFamily);
 }
 
 .appContainer {
