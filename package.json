@@ -1,42 +1,34 @@
 {
-    "name": "@christiango/copilot-app-protoype",
-    "version": "0.0.1",
-    "description": "A prototype for what the copilot app could look like on a modern stack.",
-    "main": "index.js",
-    "type": "module",
-    "scripts": {
-      "build": "tsc",
-      "bundle": "webpack --config webpack.config.js --mode production",
-      "start": "npm run build && npm run bundle && node ./lib/server/server.js",
-      "prettier:check": "prettier --check \"**.{js,ts,tsx,json,md}\"",
-      "prettier:fix": "prettier --write \"**.{js,ts,tsx,json,md}\""
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/christiango/streaming-html-server.git"
-    },
-    "author": "Christian Gonzalez",
-    "license": "UNLICENSED",
-    "bugs": {
-      "url": "https://github.com/christiango/streaming-html-server/issues"
-    },
-    "homepage": "https://github.com/christiango/streaming-html-server#readme",
-    "dependencies": {
-      "@microsoft/fast-element": "^2.1.0",
-      "@fluentui/react-components": "^9.61.2",
-      "express": "^4.17.1",
-      "react": "^18.2.0",
-      "react-dom": "^18.2.0"
-    },
-    "devDependencies": {
-      "@types/express": "^4.17.21",
-      "@types/react": "^18.2.45",
-      "@types/react-dom": "^18.2.18",
-      "@griffel/webpack-extraction-plugin": "^0.5.9",
-      "@griffel/webpack-loader": "^2.2.18",
-      "prettier": "^3.5.3",
-      "typescript": "^5.8.2",
-      "webpack": "^5.98.0",
-      "webpack-cli": "^6.0.1"
-    }
+  "name": "@christiango/copilot-app-protoype",
+  "version": "0.0.1",
+  "description": "A prototype for what the copilot app could look like on a modern stack.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "bundle": "webpack --config webpack.config.js --mode production",
+    "start": "npm run build && npm run bundle && node ./lib/server/server.js",
+    "prettier:check": "prettier --check \"**.{js,ts,tsx,json,md}\"",
+    "prettier:fix": "prettier --write \"**.{js,ts,tsx,json,md}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christiango/streaming-html-server.git"
+  },
+  "author": "Christian Gonzalez",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/christiango/streaming-html-server/issues"
+  },
+  "homepage": "https://github.com/christiango/streaming-html-server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
   }
+}
