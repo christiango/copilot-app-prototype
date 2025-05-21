@@ -34,37 +34,39 @@
       <div class="content">
         <div class="topBar">
           <div class="workWebToggle">
-            <button class="toggle active">Work</button>
-            <button class="toggle">Web</button>
+            <button class="toggleButton active" id="WorkToggleButton">Work</button>
+            <button class="toggleButton" id="WebToggleButton">Web</button>
           </div>
         </div>
-        <div class="header">
-          <h1>Hi Christian, try asking me to recap a meeting</h1>
-        </div>
-        <div class="chatInputContainer">
-          <div class="chatInput">
-            <span class="plus">+</span>
-            <input type="text" placeholder="Message Copilot" />
-            <img src="/static/vanilla/icons/chat.svg" class="icon micIcon" />
-            <img src="/static/vanilla/icons/search.svg" class="icon sendIcon" />
+        <div class="chatContainer">
+          <div class="header">
+            <h1>What can I help you with?</h1>
           </div>
-        </div>
-        <div class="cardsContainer">
-          <div class="card">
-            <img src="/static/vanilla/icons/chat.svg" class="icon" />
-            <div class="title">What's the latest from Andrew Boktor, organized by emails, chats...</div>
-            <div class="subtitle">You are both in a team meeting in 2 hours</div>
+          <div class="chatInputContainer">
+            <div class="chatInput">
+              <span class="plus">+</span>
+              <input type="text" placeholder="Message Copilot" />
+              <img src="/static/vanilla/icons/chat.svg" class="icon micIcon" />
+              <img src="/static/vanilla/icons/search.svg" class="icon sendIcon" />
+            </div>
           </div>
-          <div class="card">
-            <img src="/static/vanilla/icons/notebooks.svg" class="icon" />
-            <div class="title">List key points from Copilot Notebooks + Pages Perf Update</div>
-            <div class="subtitle">Cosmin Catrinescu replied to your comment</div>
+          <div class="cardsContainer">
+            <div class="card">
+              <img src="/static/vanilla/icons/chat.svg" class="icon" />
+              <div class="title">What's the latest from Andrew Boktor, organized by emails, chats...</div>
+              <div class="subtitle">You are both in a team meeting in 2 hours</div>
+            </div>
+            <div class="card">
+              <img src="/static/vanilla/icons/notebooks.svg" class="icon" />
+              <div class="title">List key points from Copilot Notebooks + Pages Perf Update</div>
+              <div class="subtitle">Cosmin Catrinescu replied to your comment</div>
+            </div>
+            <div class="card">
+              <img src="/static/vanilla/icons/search.svg" class="icon" />
+              <div class="title">Help me triage my calendar for tomorrow</div>
+            </div>
+            <div class="seeMore">See more</div>
           </div>
-          <div class="card">
-            <img src="/static/vanilla/icons/search.svg" class="icon" />
-            <div class="title">Help me triage my calendar for tomorrow</div>
-          </div>
-          <div class="seeMore">See more</div>
         </div>
       </div>
     </div>
