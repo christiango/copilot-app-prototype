@@ -3,6 +3,7 @@ html {
   --colorNeutralForeground1: #242424;
   --colorNeutralBackground1: #ffffff;
   --colorBrandForeground1: #464feb;
+  --fontWeightBold: 700;
 }
 
 @font-face {
@@ -68,10 +69,11 @@ body {
 
 .header h1 {
   font-size: 32px;
-  font-weight: 700;
+  font-weight: var(--fontWeightBold);
   color: var(--colorNeutralForeground1);
   margin-bottom: 24px;
   text-align: center;
+  padding: 24px 0 48px 0;
 }
 
 .chatContainer {
