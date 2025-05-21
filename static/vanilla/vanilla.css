@@ -32,6 +32,8 @@ body {
   height: 100vh;
   padding: 16px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .homeButton {
@@ -210,4 +212,37 @@ body {
   border-style: solid;
   border-width: 1px 1px 1px 0;
   border-radius: 0 8px 8px 0;
+}
+
+.sidebarFooter {
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+.profileControl {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profilePicture {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: navy;
+}
+
+.profileName {
+  flex: 1;
+  font-size: 14px;
+  color: var(--colorNeutralForeground1);
+}
+
+.moreButton {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--colorNeutralForeground3);
 }
