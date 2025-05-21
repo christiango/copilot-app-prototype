@@ -14,7 +14,7 @@ html {
 
 @font-face {
   font-family: 'Segoe UI Web';
-  src: url('./segoeui-regular.woff2');
+  src: url('/static/fonts/segoeui-regular.woff2');
 }
 
 body {
