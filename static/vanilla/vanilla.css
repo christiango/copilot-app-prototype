@@ -246,3 +246,38 @@ body {
   cursor: pointer;
   color: var(--colorNeutralForeground3);
 }
+
+.subMenu {
+  padding-left: 32px;
+  margin-bottom: 16px;
+}
+
+.subHeading {
+  font-size: 12px;
+  font-weight: var(--fontWeightBold);
+  color: var(--colorNeutralForeground3);
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+.subNavItem {
+  font-size: 14px;
+  padding: 6px 0;
+  color: var(--colorNeutralForeground1);
+  cursor: pointer;
+}
+
+.subNavItem:hover {
+  color: var(--colorBrandForeground1);
+}
+
+.subLink {
+  font-size: 14px;
+  padding: 4px 0;
+  color: var(--colorBrandForeground1);
+  cursor: pointer;
+}
+
+.subLink:hover {
+  text-decoration: underline;
+}
