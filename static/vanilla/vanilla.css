@@ -2,7 +2,9 @@ html {
   --fontFamily: 'Segoe UI', 'Segoe UI Web';
   --colorNeutralForeground1: #242424;
   --colorNeutralForeground2: #424242;
+  --colorNeutralForeground3: #616161;
   --colorNeutralBackground1: #ffffff;
+  --colorNeutralStroke2: #e0e0e0;
   --colorBrandForeground1: #464feb;
   --fontWeightBold: 700;
   --fontSizeBase200: 12px;
@@ -181,25 +183,29 @@ body {
 }
 
 .workWebToggle .toggleButton {
-  background-color: #f3f2f1;
+  background-color: var(--colorNeutralBackground3);
   border: none;
   padding: 6px 20px;
   cursor: pointer;
   font-size: 14px;
-  color: var(--colorNeutralForeground1);
+  color: var(--colorNeutralForeground3);
   height: 32px;
 }
 
 .workWebToggle .toggleButton.active {
   background-color: var(--colorNeutralBackground1);
   color: var(--colorBrandForeground1);
+  font-weight: var(--fontWeightBold);
 }
 
 #WorkToggleButton {
-  border: 1px solid #ccc;
+  border: 1px solid var(--colorNeutralStroke2);
   border-radius: 8px 0 0 8px;
 }
 
 #WebToggleButton {
+  border-color: var(--colorNeutralStroke2);
+  border-style: solid;
+  border-width: 1px 1px 1px 0;
   border-radius: 0 8px 8px 0;
 }
