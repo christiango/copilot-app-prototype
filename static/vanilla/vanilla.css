@@ -1,9 +1,11 @@
 html {
   --fontFamily: 'Segoe UI', 'Segoe UI Web';
   --colorNeutralForeground1: #242424;
+  --colorNeutralForeground2: #424242;
   --colorNeutralBackground1: #ffffff;
   --colorBrandForeground1: #464feb;
   --fontWeightBold: 700;
+  --fontSizeBase200: 12px;
 }
 
 @font-face {
@@ -153,11 +155,16 @@ body {
   color: #666;
 }
 
+.suggestionsFooter {
+  display: flex;
+  flex-direction: column;
+}
+
 .seeMore {
-  align-self: center;
+  align-self: end;
   margin-top: 8px;
-  font-size: 14px;
-  color: #0060df;
+  font-size: var(--fontSizeBase200);
+  color: var(--colorNeutralForeground2);
   cursor: pointer;
 }
 
