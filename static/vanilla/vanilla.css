@@ -1,3 +1,13 @@
 body {
-  background-color: aliceblue;
+  background-color: #fafafa;
+}
+
+.appContainer {
+  display: flex;
+}
+
+.sidebar {
+  width: 284px;
+  background-color: #f5f5f5;
+  height: 100vh;
 }
